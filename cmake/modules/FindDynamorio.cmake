@@ -1,0 +1,4 @@
+set(DYNAMORIO_PATH ${CMAKE_SOURCE_DIR}/3rd_party/dynamorio)
+set(DYNAMORIO_INCLUDE_PATH ${DYNAMORIO_PATH}/include)
+set(DYNAMORIO_LIB_PATH ${DYNAMORIO_PATH}/lib64/debug)
+set(DYNAMORIO_LIB dynamorio drpreload)
